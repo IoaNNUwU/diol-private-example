@@ -1,0 +1,10 @@
+[package]
+name = "diol-private-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diol = "0.8.2"
+
+[features]
+bench = []
