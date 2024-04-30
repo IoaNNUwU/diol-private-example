@@ -1,6 +1,6 @@
 ### Example of using `diol` crate to test private functions.
-
-> cargo test
+---
+### > cargo test
 
 ```
 running 1 test
@@ -11,8 +11,8 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 
 Runs 1 test `something_works`. See `lib.rs::tests` module.
 - Doesn't run benchmarks
-
-> cargo test --features bench
+---
+### > cargo test --features bench
 
 ```
 running 2 tests
